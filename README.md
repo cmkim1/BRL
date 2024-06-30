@@ -65,7 +65,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 85
 ### 4.1.2. MA plot & Volcano plot
 + In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
 
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/32769426-f39e-4277-a914-6e6cfb8d0630" width="48%" height="48%" align="left"> <img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/19a8fc04-9129-4d39-9d38-1ab4345ad4b5" width="48%" height="48%" align="right">
+<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/32769426-f39e-4277-a914-6e6cfb8d0630" width="45%" height="45%" align="left"><img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/19a8fc04-9129-4d39-9d38-1ab4345ad4b5" width="45%" height="45%" align="right">
 
 
 
@@ -94,8 +94,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 136
 
 ### 4.2.2. MA plot & Volcano plot  
 + In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/7d093732-702e-43bd-8c25-798f5edde33a" width="48%" height="48%" align="left">
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/dec4efbc-c052-4062-a456-da916bb7376d" width="48%" height="48%" align="right">  
+<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/7d093732-702e-43bd-8c25-798f5edde33a" width="45%" height="45%" align="left"><img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/dec4efbc-c052-4062-a456-da916bb7376d" width="45%" height="45%" align="right">  
    
    
    
