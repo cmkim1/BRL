@@ -70,9 +70,9 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
 ### 4.1.3. DEG Heatmap
-<img src = "https://github.com/cmkim1/BRL/assets/119988478/91eb08fc-0d8d-43da-a6c5-e4b8d071e340" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/00b0b768-9ce4-4798-920e-d55a3b12da22" width="45%" height="45%">   
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/00b0b768-9ce4-4798-920e-d55a3b12da22" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/9a3a8a77-7c08-4001-aa9d-a99bc509238d" width="27%" height="27%">   
 + Heatmap of significant DEG.
-+ Left: unclustered; right: column-clustered.
++ Left: average of triplicates; right: all samples.
 
 
 
@@ -109,9 +109,9 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 
 ### 4.2.3. DEG Heatmap
-<img src = "https://github.com/cmkim1/BRL/assets/119988478/b183199a-f6cb-4e14-a628-1bc6eeb6ce82" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/e61dfac4-4c73-4d8a-899c-4d500cd8b6e3" width="45%" height="45%">   
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/e61dfac4-4c73-4d8a-899c-4d500cd8b6e3" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/6db7cd70-57d0-4330-9d76-bc31ee84c01b" width="27%" height="27%">   
 + Heatmap of significant DEG.
-+ Left: unclustered; right: column-clustered.   
++ Left: average of triplicates; right: all samples.
 
 
 
