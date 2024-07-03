@@ -80,9 +80,9 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
 Total protein-coding genes | - | 5,239
-Upregulated | LogFC > 1 and P-value < 0.05 | 51
-Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 5,052
-Downregulated | LogFC < -1 and P-value < 0.05 | 136
+Upregulated | LogFC > 1 and P-value < 0.05 | 54
+Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 5,176
+Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 
 ### 4.2.1. MDS plot
