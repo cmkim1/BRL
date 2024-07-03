@@ -52,7 +52,7 @@ Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
 Total protein-coding genes | - | 4,319
 Upregulated | LogFC > 1 and P-value < 0.05 | 29
-Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 4,280
+Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 4,270
 Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
