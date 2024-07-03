@@ -57,7 +57,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
 ### 4.1.1. MDS plot
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/7e90fe0d-6f53-4ae3-9b33-a002bebbeec9" width="60%" height="60%">
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/36adc56b-cc9f-4939-8ba2-28016f6e40b1" width="60%" height="60%">
 
 + Dimension1: 22%; Dimension2: 50%
 
@@ -65,12 +65,20 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 ### 4.1.2. MA plot & Volcano plot
 
 
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/32769426-f39e-4277-a914-6e6cfb8d0630" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/19a8fc04-9129-4d39-9d38-1ab4345ad4b5" width="45%" height="45%" align="right">
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/3077f536-40f1-404e-bb46-544811c078f2" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL/assets/119988478/d1534f83-68ce-4fe8-a814-1405eaf0ec08" width="45%" height="45%" align="right">
 + In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
 
 
-### 4.1.3. Top 20 differentially expressed genes
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/67fd02b9-665f-42d3-bd54-e848a4ad645c">
+### 4.1.3. DEG Heatmap
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/91eb08fc-0d8d-43da-a6c5-e4b8d071e340" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/00b0b768-9ce4-4798-920e-d55a3b12da22" width="45%" height="45%">   
++ Heatmap of significant DEG.
++ Left: unclustered; right: row-clustered.
+
+
+
+
+### 4.1.4. Top 20 differentially expressed genes
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/bd9fd9e5-c493-44ed-bdaa-a4e81e0cc080₩">
 
 
 ## 4.2 _E. cloacae_
@@ -86,7 +94,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 
 ### 4.2.1. MDS plot
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/9642f331-521d-4126-9fe2-2f5bb4566060" width="60%" height="60%">
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/4e91c3b3-46c2-4acd-8309-7a0b9e6acf75" width="60%" height="60%">
 
 + Condition1: LSMMG; Condition2:NG
 + Dimension1: 20%; Dimension2: 48%
@@ -94,11 +102,19 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 ### 4.2.2. MA plot & Volcano plot  
 
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/7d093732-702e-43bd-8c25-798f5edde33a" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/dec4efbc-c052-4062-a456-da916bb7376d" width="45%" height="45%" align="right">  
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/68ceea5b-e949-4121-87ab-29197749aeae" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL/assets/119988478/670fc321-4459-438d-939e-94bf2be04b33" width="45%" height="45%" align="right">  
 
 + In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
    
-   
-### 4.2.3. Top 20 differentially expressed genes
-<img src = "https://github.com/cmkim1/BRL-RNA-sequencing/assets/119988478/b10f3815-2798-4bf9-af62-dbb30a03e226">
+
+
+### 4.2.3. DEG Heatmap
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/e61dfac4-4c73-4d8a-899c-4d500cd8b6e3" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/b183199a-f6cb-4e14-a628-1bc6eeb6ce82" width="45%" height="45%">   
++ Heatmap of significant DEG.
++ Left: unclustered; right: row-clustered.   
+
+
+
+### 4.2.4. Top 20 differentially expressed genes
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/c62c01dc-bbea-4371-89a8-8d9fc69e4102">
 
