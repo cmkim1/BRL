@@ -109,7 +109,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 
 ### 4.2.3. DEG Heatmap
-<img src = "https://github.com/cmkim1/BRL/assets/119988478/e61dfac4-4c73-4d8a-899c-4d500cd8b6e3" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/b183199a-f6cb-4e14-a628-1bc6eeb6ce82" width="45%" height="45%">   
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/b183199a-f6cb-4e14-a628-1bc6eeb6ce82" width="45%" height="45%" align="right"><img src = "https://github.com/cmkim1/BRL/assets/119988478/e61dfac4-4c73-4d8a-899c-4d500cd8b6e3" width="45%" height="45%">   
 + Heatmap of significant DEG.
 + Left: unclustered; right: row-clustered.   
 
