@@ -51,9 +51,9 @@ _E. cloacae_ | LSMMG3 | 3,347,922 | 1007.6
 Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
 Total protein-coding genes | - | 4,319
-Upregulated | LogFC > 1 and P-value < 0.05 | 61
-Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 4,173
-Downregulated | LogFC < -1 and P-value < 0.05 | 85
+Upregulated | LogFC > 1 and P-value < 0.05 | 29
+Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 4,280
+Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
 ### 4.1.1. MDS plot
