@@ -32,7 +32,7 @@ _E. cloacae_ | LSMMG3 | 3,347,922 | 1007.6
 
 
 ## 3. Read adapter trimming & alignment
-+ Adapter trimming and alignment were conducted in Galaxy server [workflow](https://usegalaxy.org.au/u/cmkim/w/copy-of-deg-from-bacterial-rna-sequecing-result)
++ Adapter trimming and alignment were conducted in Galaxy server [workflow](https://usegalaxy.org.au/u/cmkim/w/copy-of-deg-from-bacterial-rna-sequecing-result), [workflow2](https://usegalaxy.org.au/u/cmkim/w/unnamed-workflow)
 + Trim Galore! (Galaxy Version 0.6.7+galaxy0) was used.
 + Trmmed reads were aligned to reference genome by BWA-MEM2 (Galaxy Version 2.2.1+galaxy1).
 + Reference genomes used: GCF_000982825.1 (_C. sakazakii_), GCF_000025565.1 (_E. cloacae_)
