@@ -52,7 +52,7 @@ Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
 Total protein-coding genes | - | 4,319
 Upregulated | LogFC > 1 and P-value < 0.05 | 29
-Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 4,270
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 4,270
 Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
@@ -66,7 +66,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
 <img src = "https://github.com/cmkim1/BRL/assets/119988478/3077f536-40f1-404e-bb46-544811c078f2" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL/assets/119988478/d1534f83-68ce-4fe8-a814-1405eaf0ec08" width="45%" height="45%" align="right">
-+ In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
++ In volcano plot, genes with absolute value of logFC > 1 and p < 0.05 were considered statistically significant and colored red.
 
 
 ### 4.1.3. DEG Heatmap
@@ -78,7 +78,39 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 20
 
 
 ### 4.1.4. Top 20 differentially expressed genes
-<img src = "https://github.com/cmkim1/BRL/assets/119988478/bd9fd9e5-c493-44ed-bdaa-a4e81e0cc080₩">
+<img src = "https://github.com/cmkim1/BRL/assets/119988478/bd9fd9e5-c493-44ed-bdaa-a4e81e0cc080₩">   
+   
+
+### 4.1.5. Top 20 DEG table
+Product | logFC | P value
+---- | ---- | ----
+nucleotidyltransferase domain-containing protein|2.51|0.0027
+RtcB family protein|2.47|0.0052
+slipin family protein|2.33|0.0092
+DUF1120 domain-containing protein|2.26|0.009
+glycine betaine/L-proline ABC transporter ATP-binding protein ProV|1.74|0.0063
+siroheme synthase CysG|1.56|0.0129
+glycine betaine/L-proline ABC transporter permease ProW|1.53|0.016
+sulfate ABC transporter substrate-binding protein|1.46|0.0192
+dimethylsulfoxide reductase subunit A|1.45|0.0389
+flagellar basal-body rod protein FlgG|-1.44|0.0087
+flagellar basal body-associated protein FliL|-1.45|0.0061
+flagellar basal-body MS-ring/collar protein FliF|-1.51|0.0256
+flagellar export protein FliJ|-1.52|0.0066
+stress-induced protein YchH|-1.62|0.0187
+flagellar basal body rod protein FlgF|-1.68|0.0044
+flagellar basal body rod protein FlgB|-1.76|0.0183
+flagellar motor switch protein FliG|-1.83|0.008
+flagellar hook protein FlgE|-1.9|0.0119
+flagellar hook assembly protein FlgD|-2.13|0.0107
+flagellar basal body rod protein FlgC|-2.2|0.0068
+
+
+
+
+
+
+
 
 
 ## 4.2 _E. cloacae_
@@ -89,7 +121,7 @@ Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
 Total protein-coding genes | - | 5,239
 Upregulated | LogFC > 1 and P-value < 0.05 | 54
-Not significant | \|LogFC\| <= 2 or P-value >= 0.05 | 5,176
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 5,176
 Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 
@@ -104,7 +136,7 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 
 <img src = "https://github.com/cmkim1/BRL/assets/119988478/68ceea5b-e949-4121-87ab-29197749aeae" width="45%" height="45%"><img src = "https://github.com/cmkim1/BRL/assets/119988478/670fc321-4459-438d-939e-94bf2be04b33" width="45%" height="45%" align="right">  
 
-+ In volcano plot, genes with absolute value of logFC > 2 and p < 0.05 were considered statistically significant and colored red.
++ In volcano plot, genes with absolute value of logFC > 1 and p < 0.05 were considered statistically significant and colored red.
    
 
 
@@ -118,3 +150,28 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 9
 ### 4.2.4. Top 20 differentially expressed genes
 <img src = "https://github.com/cmkim1/BRL/assets/119988478/c62c01dc-bbea-4371-89a8-8d9fc69e4102">
 
+
+
+### 4.2.5. Top 20 DEG table
+Product | logFC | P value
+---- | ---- | ----
+TniQ family protein|2.58|0.0043
+transposase|2.58|0.0028
+fimbrial protein|2.2|0.0083
+TniB family NTP-binding protein|2.17|0.0016
+hypothetical protein|2.05|0.009
+ABC transporter permease|2.02|0.0047
+aminobutyraldehyde dehydrogenase|2.01|0.0064
+hypothetical protein|2|0.005
+TniQ family protein|1.96|0.0037
+recombinase family protein|1.9|0.0052
+TniB family NTP-binding protein|1.9|0.0118
+glutamine synthetase family protein|1.9|0.0077
+helix-turn-helix transcriptional regulator|1.85|0.0106
+FAD-binding oxidoreductase|1.84|0.0094
+aldehyde dehydrogenase PuuC|1.83|0.005
+4-aminobutyrate transaminase|1.74|0.0207
+SrfA family protein|1.68|0.0402
+DDE-type integrase/transposase/recombinase|-1.69|0.0033
+ABC transporter permease|-1.75|0.0355
+NADPH-dependent FMN reductase|-2.21|0.027
