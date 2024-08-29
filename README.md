@@ -6,5 +6,5 @@
 + _Citrobacter freundii_ KCTC 2195
 
 Each strain was cultured in LSMMG (low shear modeled micro-gravity) and NG (normal gravity).
-Replicates 1, 2 and 3 of _E. cloacae_ and _C. freundii_ were from [previous RNA-seq result](OVERVIEW.md).
+Replicates 1, 2 and 3 of _E. cloacae_ and _C. freundii_ were from [previous RNA-seq result](RNAseq240618).
 
