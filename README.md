@@ -52,3 +52,33 @@ Total protein-coding genes | - | 3,804
 Upregulated | LogFC > 1 and P-value < 0.05 | 99
 Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3,648
 Downregulated | LogFC < -1 and P-value < 0.05 | 57
+
+### 4.1.1. MDS plot & MD plot
+<img src = "https://github.com/user-attachments/files/16814179/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/16814137/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
+
+### 4.1.2. Top 20 DEG tables
+Product | logFC | P value
+---- | ---- | ----
+chaperone NapD | 3.75 | 0.0075
+nitrate reductase catalytic subunit NapA | 3.23 | 0.0465
+NADPH-nitrite reductase large subunit | 3.1 | 0.0249
+ferredoxin-type protein NapF | 3.04 | 0.0285
+ferredoxin-type protein NapG | 2.97 | 0.0376
+nitrate reductase cytochrome c-type subunit | 2.96 | 0.0382
+quinol dehydrogenase ferredoxin subunit NapH | 2.87 | 0.0394
+pseudouridine kinase | 2.6 | 0.0481
+trimethylamine-N-oxide reductase 2 | 2.56 | 0.0053
+universal stress protein UspF | 2.49 | 0.0234
+galactose/glucose ABC transporter substrate-binding protein MglB | -3.78 | 0.0207
+fatty acid oxidation complex subunit alpha FadB | -3.26 | 0.0114
+maltose/glucose-specific PTS transporter subunit IIBC | -2.78 | 0.013
+diaminopimelate decarboxylase | -2.05 | 0.0315
+acyl-CoA dehydrogenase FadE | -2.02 | 0.0057
+bifunctional 2-methylcitrate dehydratase/aconitate hydratase | -1.89 | 0.0293
+class 1 fructose-bisphosphatase | -1.85 | 0.0074
+Fe-S cluster assembly transcriptional regulator IscR | -1.84 | 0.0016
+purine nucleoside transporter PunC | -1.79 | 0.001
+YgdI/YgdR family lipoprotein | -1.75 | 0.0217
+
+
+
