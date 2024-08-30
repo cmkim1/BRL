@@ -8,13 +8,12 @@ Replicates 1, 2 and 3 of _C. sakazakii_ and _E. cloacae_ were from [previous RNA
 
 ## 2. Library preparation & Sequencing
 + RNA prep: RNA was extracted using QiAGEN RNA mini-prep kit.
-+ RNA library prep: rRNA-depleted total RNA library was prepared using Zymo-Seq RiboFree® Total RNA Library Kit (Zymo Research).
++ Library prep: Zymo-Seq RiboFree® Total RNA Library Kit (Zymo Research).
 + Sequencing: MiSeq, Reagent V3 (300 PE)
 + Actual yield: 14.64GB
 + % PF: 90.50%
 + % >= Q30: 84.53%
-
-
+    
 Species | Condition | Total reads | Total bases (Mbp)
 --- | --- | --- | ---
 _C. freudii_ | NG1 | 1,690,071 | 1014.0
@@ -30,3 +29,26 @@ _C. sakazakii_ | LSMMG4 | 1,464,680 | 878.8
 _E. cloacae_ | NG4 | 1,902,343 | 1141.4
 _E. cloacae_ | LSMMG4 | 2,562,535 | 1537.5
 
+## 3. Adapter trimming, alignment, DEG analyssi  
+All processes were conducted in Galaxy server.  
++ Adapter trimming: Trim Galore! (Galaxy Version 0.6.7+galaxy0)
++ Alignment BWA-MEM2 (Galaxy Version 2.2.1+galaxy1)
++ Count: featureCounts (Galaxy Version 2.0.3+galaxy2)
++ DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy4)
++ Reference genomes used: GCF_904859905.1 (_C. freundii_), GCF_000982825.1 (_C. sakazakii_), GCF_000025565.1 (_E. cloacae_)
+
+Genes without more than 5 CPM in at least 2 samples are insignificant and filtered out.  
+Non-coding RNAs such as tRNA, rRNA, miRNA, lncRNA were excluded in analysis.
+
+
+
+## 4.1 _C. freundii_ in LSMMG  
+1105 of 4909 (22.51%) genes were filtered out for low expression.
++ Genes were sorted by their differential expression as below.
+
+Category | LogFC (Treated/Control) | Count
+---- | ---- | ----
+Total protein-coding genes | - | 3,804
+Upregulated | LogFC > 1 and P-value < 0.05 | 99
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3,648
+Downregulated | LogFC < -1 and P-value < 0.05 | 57
