@@ -76,7 +76,7 @@ truncQ: 2
 | **Non-chimera**  | 4,402,735      |  
 In total, 76% of input reads were taxonomy-assigned.
 
-## Standard Validation
+### Standard Validation
 
 ### Detected Genera and Their Relative Abundance
 | **Genus**                       | **Actual Abundance (%)** | **Standard**                      | **Standard Abundance (%)** |
