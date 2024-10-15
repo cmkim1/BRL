@@ -1,3 +1,5 @@
+# Bacterial transcriptomics in LSMMG
+
 ## 1. Bacterial strains and conditions
 + _Cronobacter sakazakii_ ATCC 29544
 + _Enterobacter cloacae_ ATCC 13047
@@ -35,50 +37,48 @@ All processes were conducted in Galaxy server.
 + Alignment BWA-MEM2 (Galaxy Version 2.2.1+galaxy1)
 + Count: featureCounts (Galaxy Version 2.0.3+galaxy2)
 + DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy4)
-+ Reference genomes used: GCF_904859905.1 (_C. freundii_), GCF_000982825.1 (_C. sakazakii_), GCF_000025565.1 (_E. cloacae_)
++ Reference genomes used: in-lab sequenced genome (_C. freundii_), GCF_000982825.1 (_C. sakazakii_), GCF_000025565.1 (_E. cloacae_)
++ **_C. freundii_ KCTC2195 was identied as _C. braakii_ by result of ANI analysis.**
 
 Genes without more than 5 CPM in at least 2 samples are insignificant and filtered out.  
 Non-coding RNAs such as tRNA, rRNA, miRNA, lncRNA were excluded in analysis.
 
 
 
-## 4.1 _C. freundii_ in LSMMG  
-1105 of 4909 (22.51%) genes were filtered out for low expression.
+## 4.1 _C. braakii_ in LSMMG  
+88 of 4551 (1.93%) genes were filtered out for low expression.
 + Genes were sorted by their differential expression as below.
 
 Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
-Total protein-coding genes | - | 3,804
-Upregulated | LogFC > 1 and P-value < 0.05 | 99
-Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3,648
-Downregulated | LogFC < -1 and P-value < 0.05 | 57
+Total protein-coding genes | - | 4463
+Upregulated | LogFC > 1 and P-value < 0.05 | 101
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 4306
+Downregulated | LogFC < -1 and P-value < 0.05 | 56
 
 ### 4.1.1. MDS plot & MD plot
-<img src = "https://github.com/user-attachments/files/16814179/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/16814137/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
+<img src = "https://github.com/user-attachments/files/17375120/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/17375123/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
 
 ### 4.1.2. Top 20 DEG tables
 Product | logFC | P value
 ---- | ---- | ----
-chaperone NapD | 3.75 | 0.0075
-nitrate reductase catalytic subunit NapA | 3.23 | 0.0465
-NADPH-nitrite reductase large subunit | 3.1 | 0.0249
-ferredoxin-type protein NapF | 3.04 | 0.0285
-ferredoxin-type protein NapG | 2.97 | 0.0376
-nitrate reductase cytochrome c-type subunit | 2.96 | 0.0382
-quinol dehydrogenase ferredoxin subunit NapH | 2.87 | 0.0394
-pseudouridine kinase | 2.6 | 0.0481
-trimethylamine-N-oxide reductase 2 | 2.56 | 0.0053
-universal stress protein UspF | 2.49 | 0.0234
-galactose/glucose ABC transporter substrate-binding protein MglB | -3.78 | 0.0207
-fatty acid oxidation complex subunit alpha FadB | -3.26 | 0.0114
-maltose/glucose-specific PTS transporter subunit IIBC | -2.78 | 0.013
-diaminopimelate decarboxylase | -2.05 | 0.0315
-acyl-CoA dehydrogenase FadE | -2.02 | 0.0057
-bifunctional 2-methylcitrate dehydratase/aconitate hydratase | -1.89 | 0.0293
-class 1 fructose-bisphosphatase | -1.85 | 0.0074
-Fe-S cluster assembly transcriptional regulator IscR | -1.84 | 0.0016
-purine nucleoside transporter PunC | -1.79 | 0.001
-YgdI/YgdR family lipoprotein | -1.75 | 0.0217
-
-
-
+Chaperone NapD | 3.81 | 0.0086
+L-arabinose isomerase | 3.69 | 0.0125
+Nitrite reductase [NAD(P)H] | 3.11 | 0.0295
+Ferredoxin-type protein NapF | 3.07 | 0.0322
+Periplasmic nitrate reductase, electron transfer subunit | 2.97 | 0.0439
+Ferredoxin-type protein NapG | 2.97 | 0.0443
+Ferredoxin-type protein NapH | 2.88 | 0.0455
+Trimethylamine-N-oxide reductase 2 | 2.61 | 0.0066
+Universal stress protein F | 2.53 | 0.0273
+Nitrite reductase (NADH) small subunit | 2.34 | 0.0085
+D-galactose-binding periplasmic protein | -3.75 | 0.0207
+Fatty acid oxidation complex subunit alpha | -3.22 | 0.0114
+PTS system maltose-specific EIICB component | -2.73 | 0.0136
+Diaminopimelate decarboxylase | -2.17 | 0.0281
+2-methylcitrate dehydratase | -2.1 | 0.0197
+Acyl-coenzyme A dehydrogenase | -1.98 | 0.0078
+2-methylcitrate synthase | -1.88 | 0.0418
+HTH-type transcriptional regulator IscR | -1.85 | 0.0025
+Fructose-1,6-bisphosphatase class 1 | -1.81 | 0.01
+Inner membrane transport protein YdhC | -1.78 | 0.0017
