@@ -1,4 +1,4 @@
-# Stool Microbiome cultured with Prebiotics
+# Stool Microbiome cultured with _C. difficile_
 
 ## 1. Library
 
