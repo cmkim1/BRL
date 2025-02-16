@@ -28,24 +28,18 @@ All processes were conducted in Galaxy server.
 + Alignment BWA-MEM2 (Galaxy Version 2.2.1+galaxy1)
 + Count: featureCounts (Galaxy Version 2.0.3+galaxy2)
 + DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy4)
-+ Reference genomes used: in-lab sequenced genome (_C. freundii_), GCF_000982825.1 (_C. sakazakii_), GCF_000025565.1 (_E. cloacae_)
-+ **_C. freundii_ KCTC2195 was identied as _C. braakii_ by result of ANI analysis.**
-
-Genes without more than 5 CPM in at least 2 samples are insignificant and filtered out.  
-Non-coding RNAs such as tRNA, rRNA, miRNA, lncRNA were excluded in analysis.
++ Reference genomes used: [PRJNA289526](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=SAMN03859750&o=acc_s%3Ad)
 
 
-
-## 4.1 _C. braakii_ in LSMMG  
-88 of 4551 (1.93%) genes were filtered out for low expression.
-+ Genes were sorted by their differential expression as below.
+## 4.1 _S. aureus_ in LSMMG  
+Genes were sorted by their differential expression as below.
 
 Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
-Total protein-coding genes | - | 4463
-Upregulated | LogFC > 1 and P-value < 0.05 | 101
-Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 4306
-Downregulated | LogFC < -1 and P-value < 0.05 | 56
+Total protein-coding genes | - | 3297
+Upregulated | LogFC > 1 and P-value < 0.05 | 33
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3249
+Downregulated | LogFC < -1 and P-value < 0.05 | 15
 
 ### 4.1.1. MDS plot & MD plot
 <img src = "https://github.com/user-attachments/files/17375120/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/17375123/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
