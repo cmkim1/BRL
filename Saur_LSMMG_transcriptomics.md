@@ -9,24 +9,18 @@
 + RNA prep: RNA was extracted using QiAGEN RNA mini-prep kit.
 + Library prep: Zymo-Seq RiboFree® Total RNA Library Kit (Zymo Research).
 + Sequencing: MiSeq, Reagent V2 (150 PE)
-+ Actual yield: 14.64GB
-+ % PF: 90.50%
-+ % >= Q30: 84.53%
++ Actual yield: 2.77GB
++ % PF: 98.131%
++ % >= Q30: 94.53%
     
 Species | Condition | Total reads | Total bases (Mbp)
 --- | --- | --- | ---
-_C. freudii_ | NG1 | 1,690,071 | 1014.0
-_C. freudii_ | NG2 | 2,273,462 | 1364.1
-_C. freudii_ | NG3 | 2,319,495 | 1391.7
-_C. freudii_ | NG4 | 2,097,443 | 1258.5
-_C. freudii_ | LSMMG1 | 2,024,698 | 1214.8
-_C. freudii_ | LSMMG2 | 2,007,526 | 1204.5
-_C. freudii_ | LSMMG3 | 1,454,424 | 872.7
-_C. freudii_ | LSMMG4 | 1,476,844 | 886.1
-_C. sakazakii_ | NG4 | 1,716,307 | 1029.8
-_C. sakazakii_ | LSMMG4 | 1,464,680 | 878.8
-_E. cloacae_ | NG4 | 1,902,343 | 1141.4
-_E. cloacae_ | LSMMG4 | 2,562,535 | 1537.5
+_S. aureus_ NRS 111 | NG1 | 1,710,851 | 513
+_S. aureus_ NRS 111 | NG2 | 1,436,064 | 431
+_S. aureus_ NRS 111 | NG3 | 1,682,246 | 505
+_S. aureus_ NRS 111 | LSMMG1 | 1,485,300 | 446
+_S. aureus_ NRS 111 | LSMMG2 | 1,489,052 | 447
+_S. aureus_ NRS 111 | LSMMG3 | 1,991,733 | 598
 
 ## 3. Adapter trimming, alignment, DEG analyssi  
 All processes were conducted in Galaxy server.  
