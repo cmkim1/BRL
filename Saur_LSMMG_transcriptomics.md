@@ -22,7 +22,7 @@ _S. aureus_ NRS 111 | LSMMG1 | 1,485,300 | 446
 _S. aureus_ NRS 111 | LSMMG2 | 1,489,052 | 447
 _S. aureus_ NRS 111 | LSMMG3 | 1,991,733 | 598
 
-## 3. Adapter trimming, alignment, DEG analyssi  
+## 3. Adapter trimming, alignment, DEG analysis  
 All processes were conducted in Galaxy server.  
 + Adapter trimming: Trim Galore! (Galaxy Version 0.6.7+galaxy0)
 + Alignment BWA-MEM2 (Galaxy Version 2.2.1+galaxy1)
@@ -42,28 +42,28 @@ Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3249
 Downregulated | LogFC < -1 and P-value < 0.05 | 15
 
 ### 4.1.1. MDS plot & MD plot
-<img src = "https://github.com/user-attachments/files/17375120/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/17375123/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
+<img src = "https://github.com/user-attachments/files/18814763/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/18814764/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
 
 ### 4.1.2. Top 20 DEG tables
 Product | logFC | P value
 ---- | ---- | ----
-Chaperone NapD | 3.81 | 0.0086
-L-arabinose isomerase | 3.69 | 0.0125
-Nitrite reductase [NAD(P)H] | 3.11 | 0.0295
-Ferredoxin-type protein NapF | 3.07 | 0.0322
-Periplasmic nitrate reductase, electron transfer subunit | 2.97 | 0.0439
-Ferredoxin-type protein NapG | 2.97 | 0.0443
-Ferredoxin-type protein NapH | 2.88 | 0.0455
-Trimethylamine-N-oxide reductase 2 | 2.61 | 0.0066
-Universal stress protein F | 2.53 | 0.0273
-Nitrite reductase (NADH) small subunit | 2.34 | 0.0085
-D-galactose-binding periplasmic protein | -3.75 | 0.0207
-Fatty acid oxidation complex subunit alpha | -3.22 | 0.0114
-PTS system maltose-specific EIICB component | -2.73 | 0.0136
-Diaminopimelate decarboxylase | -2.17 | 0.0281
-2-methylcitrate dehydratase | -2.1 | 0.0197
-Acyl-coenzyme A dehydrogenase | -1.98 | 0.0078
-2-methylcitrate synthase | -1.88 | 0.0418
-HTH-type transcriptional regulator IscR | -1.85 | 0.0025
-Fructose-1,6-bisphosphatase class 1 | -1.81 | 0.01
-Inner membrane transport protein YdhC | -1.78 | 0.0017
+Quinol oxidase subunit 3 | 1.34 | 0.0001
+Lipase 2 | -1.02 | 0.0002
+30S ribosomal protein S10 | 1.18 | 0.0002
+teichoic acid D-Ala incorporation-associated protein DltX | 1.06 | 0.0002
+sterile alpha motif-like domain-containing protein | 1.1 | 0.0002
+Leucotoxin LukDv | -1.02 | 0.0005
+50S ribosomal protein L4 | 1.02 | 0.0005
+Mn2 and Fe2 transporter | -1.28 | 0.0007
+Staphyloferrin B synthase | -1.17 | 0.0007
+50S ribosomal protein L11 | 1.04 | 0.0009
+Ribosome hibernation promotion factor | -1.06 | 0.0012
+50S ribosomal protein L3 | 1.04 | 0.0015
+Bifunctional autolysin | 1.18 | 0.0015
+Molybdate-binding protein ModA | 1.1 | 0.0017
+Glyceraldehyde-3-phosphate dehydrogenase 1 | 1.12 | 0.0018
+putative quinol oxidase subunit 1 | 1.14 | 0.0023
+Phosphoribosylformylglycinamidine cyclo-ligase | -1.04 | 0.0025
+DNA-binding protein HU | 1.07 | 0.0027
+Putative sulfur carrier protein YeeD | -1.01 | 0.0031
+putative quinol oxidase subunit 2 | 1.04 | 0.0033
