@@ -47,23 +47,24 @@ Downregulated | LogFC < -1 and P-value < 0.05 | 15
 ### 4.1.2. Top 20 DEG tables
 Product | logFC | P value
 ---- | ---- | ----
+DUF443 family protein | 3.11 | 0.0212
+Antibacterial protein 3 | -2.95 | 2.79E-06
+PTS system glucose-specific EIICBA component | -2.71 | 0.0358
+L-threonine dehydratase catabolic TdcB | 1.97 | 5.49E-11
+Alanine dehydrogenase 1 | 1.92 | 1.25E-08
+**Quinolone resistance protein NorB** | 1.9 | 6.29E-11
+L-threonine dehydratase catabolic TdcB | 1.8 | 8.20E-09
+Serine/threonine exchanger SteT | 1.71 | 3.15E-07
+Antibacterial protein 3 | -1.67 | 8.18E-08
+Alanine dehydrogenase 1 | 1.66 | 2.84E-07
+Serine/threonine exchanger SteT | 1.63 | 6.46E-07
+hypothetical protein | -1.57 | 0.0302
+**Enterotoxin type C-3** | 1.57 | 0.0335
+hypothetical protein | 1.55 | 0.0145
 Quinol oxidase subunit 3 | 1.34 | 0.0001
-Lipase 2 | -1.02 | 0.0002
-30S ribosomal protein S10 | 1.18 | 0.0002
-teichoic acid D-Ala incorporation-associated protein DltX | 1.06 | 0.0002
-sterile alpha motif-like domain-containing protein | 1.1 | 0.0002
-Leucotoxin LukDv | -1.02 | 0.0005
-50S ribosomal protein L4 | 1.02 | 0.0005
-Mn2 and Fe2 transporter | -1.28 | 0.0007
-Staphyloferrin B synthase | -1.17 | 0.0007
-50S ribosomal protein L11 | 1.04 | 0.0009
-Ribosome hibernation promotion factor | -1.06 | 0.0012
-50S ribosomal protein L3 | 1.04 | 0.0015
-Bifunctional autolysin | 1.18 | 0.0015
-Molybdate-binding protein ModA | 1.1 | 0.0017
-Glyceraldehyde-3-phosphate dehydrogenase 1 | 1.12 | 0.0018
-putative quinol oxidase subunit 1 | 1.14 | 0.0023
-Phosphoribosylformylglycinamidine cyclo-ligase | -1.04 | 0.0025
-DNA-binding protein HU | 1.07 | 0.0027
-Putative sulfur carrier protein YeeD | -1.01 | 0.0031
-putative quinol oxidase subunit 2 | 1.04 | 0.0033
+Catabolite control protein A | 1.3 | 0.0158
+Bax inhibitor-1/YccA family protein | -1.28 | 0.0007
+Formate dehydrogenase | -1.27 | 1.44E-05
+N-acetylmuramoyl-L-alanine amidase sle1 | 1.24 | 9.98E-07
+Quinol oxidase subunit 4 | 1.23 | 3.49E-05
+
