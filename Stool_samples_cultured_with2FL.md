@@ -31,39 +31,41 @@ Whole reads were assembled to make transcript contigs and used as reference sequ
 + Count: featureCounts (Galaxy Version 2.0.3+galaxy2)
 + DEG analysis: edgeR (Galaxy Version 3.36.0+galaxy4)
 
-## 4.1 Gut microbiome in LSMMG  
+## 4.1 DEGs in LSMMG  
 Genes were sorted by their differential expression as below.
+Genes without more than 1 CPM in at least 6 samples are insignificant and filtered out.
+64060 of 73732 (86.88%) genes were filtered out for low expression.
 
 Category | LogFC (Treated/Control) | Count
 ---- | ---- | ----
-Total protein-coding genes | - | 3297
-Upregulated | LogFC > 1 and P-value < 0.05 | 33
-Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 3249
-Downregulated | LogFC < -1 and P-value < 0.05 | 15
+Total protein-coding genes | - | 9,672
+Upregulated | LogFC > 1 and P-value < 0.05 | 312
+Not significant | \|LogFC\| <= 1 or P-value >= 0.05 | 9,304
+Downregulated | LogFC < -1 and P-value < 0.05 | 56
 
 ### 4.1.1. MDS plot & MD plot
-<img src = "https://github.com/user-attachments/files/18814763/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/18814764/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
+<img src = "https://github.com/user-attachments/files/19314515/mdsplot_Gravity.pdf" width = "45%" height = "45%"><img src = "https://github.com/user-attachments/files/19314544/mdplot_LSMMG-NG.pdf" width = "45%" height = "45%" align = "right">
 
 ### 4.1.2. Top 20 DEG tables
 Product | logFC | P value
 ---- | ---- | ----
-DUF443 family protein | 3.11 | 0.0212
-Antibacterial protein 3 | -2.95 | 2.79E-06
-PTS system glucose-specific EIICBA component | -2.71 | 0.0358
-L-threonine dehydratase catabolic TdcB | 1.97 | 5.49E-11
-Alanine dehydrogenase 1 | 1.92 | 1.25E-08
-**Quinolone resistance protein NorB** | 1.9 | 6.29E-11
-L-threonine dehydratase catabolic TdcB | 1.8 | 8.20E-09
-Serine/threonine exchanger SteT | 1.71 | 3.15E-07
-Antibacterial protein 3 | -1.67 | 8.18E-08
-Alanine dehydrogenase 1 | 1.66 | 2.84E-07
-Serine/threonine exchanger SteT | 1.63 | 6.46E-07
-hypothetical protein | -1.57 | 0.0302
-**Enterotoxin type C-3** | 1.57 | 0.0335
-hypothetical protein | 1.55 | 0.0145
-Quinol oxidase subunit 3 | 1.34 | 0.0001
-Catabolite control protein A | 1.3 | 0.0158
-Bax inhibitor-1/YccA family protein | -1.28 | 0.0007
-Formate dehydrogenase | -1.27 | 1.44E-05
-N-acetylmuramoyl-L-alanine amidase sle1 | 1.24 | 9.98E-07
-Quinol oxidase subunit 4 | 1.23 | 3.49E-05
+hypothetical protein | 6.95 | 0.00017
+hypothetical protein | 5.85 | 0.01564
+Aldehyde-alcohol dehydrogenase | 5.75 | 0.047
+Aldehyde-alcohol dehydrogenase | 5.51 | 0.02439
+hypothetical protein | 5.36 | 0.00016
+Aldose 1-epimerase | 4.77 | 0.03956
+Amylosucrase | 4.35 | 0.00056
+Putative universal stress protein | 4.18 | 0.00232
+hypothetical protein | 3.95 | 0.0007
+hypothetical protein | 3.86 | 0.00119
+PTS system lactose-specific EIICB component | 3.8 | 0.02627
+PTS system lactose-specific EIICB component | 3.72 | 0.00907
+Putative universal stress protein | 3.72 | 0.00091
+Elongation factor P | 3.67 | 0.02533
+hypothetical protein | 3.66 | 0.00152
+Elongation factor G%2C mitochondrial | 3.65 | 0.00284
+Redox-sensing transcriptional repressor Rex | 3.65 | 0.00139
+Chromosome partition protein Smc | 3.64 | 0.00233
+hypothetical protein | 3.64 | 0.00373
+hypothetical protein | -3.61 | 0.03999
