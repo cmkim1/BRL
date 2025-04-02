@@ -57,15 +57,15 @@ hypothetical protein | 5.36 | 0.00016
 Aldose 1-epimerase | 4.77 | 0.03956
 Amylosucrase | 4.35 | 0.00056
 Putative universal stress protein | 4.18 | 0.00232
-hypothetical protein | 3.95 | 0.0007
-hypothetical protein | 3.86 | 0.00119
+fibronectin type III domain-containing protein | 3.95 | 0.0007
+AAA family ATPase | 3.86 | 0.00119
 PTS system lactose-specific EIICB component | 3.8 | 0.02627
 PTS system lactose-specific EIICB component | 3.72 | 0.00907
 Putative universal stress protein | 3.72 | 0.00091
 Elongation factor P | 3.67 | 0.02533
-hypothetical protein | 3.66 | 0.00152
+class A sortase | 3.66 | 0.00152
 Elongation factor G%2C mitochondrial | 3.65 | 0.00284
 Redox-sensing transcriptional repressor Rex | 3.65 | 0.00139
 Chromosome partition protein Smc | 3.64 | 0.00233
-hypothetical protein | 3.64 | 0.00373
+isopeptide-forming domain-containing fimbrial protein | 3.64 | 0.00373
 hypothetical protein | -3.61 | 0.03999
