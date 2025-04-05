@@ -31,7 +31,7 @@ _C. sakazakii_ | LSMMG4 | 1,464,680 | 878.8
 _E. cloacae_ | NG4 | 1,902,343 | 1141.4
 _E. cloacae_ | LSMMG4 | 2,562,535 | 1537.5
 
-## 3. Adapter trimming, alignment, DEG analyssi  
+## 3. Adapter trimming, alignment, DEG analysis  
 All processes were conducted in Galaxy server.  
 + Adapter trimming: Trim Galore! (Galaxy Version 0.6.7+galaxy0)
 + Alignment BWA-MEM2 (Galaxy Version 2.2.1+galaxy1)
